@@ -26,10 +26,10 @@ targets:
 logging:
   - target: PT2Regler
     signal: Alpha
-    period: 0.1     
+    period: 0.01     
   - target: PT2Regler
     signal: x_Ist
-    period: 0.1     
+    period: 0.01     
 
 phases:
   - description: ok

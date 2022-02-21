@@ -31,10 +31,10 @@ devices:
       filename: 'PT2Regler.slx'
       params: 
         Kr: 0.5
-        N: [0.9, 1]
+        N: [1, 1]
         D: [0, 0.2, 1]
-        N1: [0.5, 1]
-        D1: [0, 0.25, 1]
+        N1: [0.9, 1]
+        D1: [0, 0.15, 1]
   - name: System
     type: Model
     interface:
